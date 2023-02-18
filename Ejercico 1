@@ -1,1 +1,14 @@
+#include <iostream>
 
+using namespace std;
+
+int main()
+{ int total=0,i;
+for(i=100;i>=50;i=i-2)
+{
+    total=total+i;
+}
+    cout<<"total es:"<<total;
+
+    return 0;
+}
