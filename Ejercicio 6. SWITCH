@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{  int opcion; string contra;
+    cout<<"menu"<<endl;
+    cout<<"1. contraseña"<<endl;
+    cout<<"elija la opcion"<<endl;
+    cin>>opcion;
+    
+    switch(opcion)
+    {
+        case 1:
+        cin>>contra;
+        break;
+    }
+    return 0;
+}
