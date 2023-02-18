@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{ int a;
+    cout<<"cuanto es 48+50";
+    cin>>a;
+    if(48+50==98)
+    {
+        cout<<"correcto";
+    }
+    
+
+    return 0;
+}
