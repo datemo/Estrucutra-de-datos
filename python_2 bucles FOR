@@ -1,0 +1,4 @@
+edad=int(input("ingrese su edad: "))
+print(edad)
+for i in range(edad):
+    print("cumplio " + str(i+1) + " años")
