@@ -1,0 +1,10 @@
+palabra=input("ingrese una palabra: ")
+vocales = ['a', 'e', 'i', 'o', 'u']
+conteo_vocales = [0]*5
+for letra in palabra:
+    if letra.lower() in vocales:
+        indice = vocales.index(letra.lower())
+        conteo_vocales[indice] += 1
+print("La palabra ingresada contiene:")
+for i in range(len(vocales)):
+    print(vocales[i], ":", conteo_vocales[i])
